@@ -48,7 +48,7 @@ if [ "$CXX" = "g++" ]; then export CXX="g++-4.9" CC="gcc-4.9"; fi
 cd core
 mkdir build
 cd build
-cmake -DCMAKE_BUILD_TYPE=Release ..
+cmake -DCMAKE_BUILD_TYPE=Release ../core
 make
 ```
 <h5>3. Copy core library into Unity3d plugin folder: </h5>
